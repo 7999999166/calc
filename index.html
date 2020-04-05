@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+ <div class="flex-container container main">
+     <h1 class="flex-container heading">Equation calculator</h1>
+     <div class="flex-container main2">
+     <input type="text" class="input is-success  dg1 num1">
+     <input type="text" class="input is-success  dg1 num2">
+     </div>
+     <button class="dg3 button is-danger is-outlined" onclick="reload()">=</button>
+     <div class="flex-container main3">
+     <input type="text" class="input is-success dg2 num3">
+     <input type="text" class="input is-success dg2 num4">
+     </div>
+     <button class="dg4 button is-danger is-rounded is-outlined "><span class="fonty" onclick="getValue()">Calculate</span></button>   
+ </div>   
+ <script src="index.js"></script>
+</body>
+</html>
